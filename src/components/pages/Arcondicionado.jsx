@@ -17,16 +17,14 @@ export default function arCondicionado(){
       <div className={styles.wrapperContent}>
       
         <div className={styles.info}>
-      <h4>Consertos e novas instalações </h4>
+      <h4>Conheça nossas soluções</h4>
       <br></br>
-      <ul className={styles.list}>
-        <li>Automação de tarefas</li>
-        <li>Portões de garagem</li>
-        <li>Ventiladores de teto</li>
-        <li>Interruptores e tomadas</li>
-        <li>Chuveiros</li>
-        <li>Alarmes e cameras</li>
-      </ul>
+      <div className={styles.wrapperCard}>
+       <div className={styles.card}></div>
+       <div className={styles.card}></div>
+       <div className={styles.card}></div>
+       <div className={styles.card}></div>
+      </div>
       <Button 
        className={styles.btn}
        text="Faça um orçamento"
