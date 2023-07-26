@@ -1,0 +1,33 @@
+.footer{
+  width: 100%;
+  height: 1.3em;
+  padding: 3em;
+  display: flex;
+  flex-direction: row;
+  background-color: #3178FF;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.list{
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  align-items: center;
+}
+.copy {
+   font-size: 1.2em;
+   color: #fff;
+
+}
+.item {
+  margin-right: 1em;
+}
+.icon{
+  font-size: 2em;
+  color: #fff;
+}
+.icon:hover {
+  color: #2624DB;
+}

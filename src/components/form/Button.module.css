@@ -1,0 +1,23 @@
+.btn{
+  width: 16em;
+  padding: 1.4em;
+  margin: 1.4em auto;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  fit-content: content;
+  border-radius: 25px;
+  background: hsl(839, 100%, 26%);
+  color: #bbb;
+
+}
+.btn:hover{
+  cursor: pointer;
+  color: #fff;
+  background:hsl(839, 100%, 14%);
+ 
+}
+.item {
+  margin: 1px 0 0 1em;
+  font-size: 1em;
+}

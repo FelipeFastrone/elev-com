@@ -1,0 +1,70 @@
+
+.wrapper {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 4.6em;
+  
+  
+}
+.wrapper  h4 {
+  font-size: 1.2em;
+}
+.wrapperContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.info{
+  text-align: center;
+  opacity: 0.9;
+  margin: auto;
+  width: 60%;
+  padding: 5em;
+  border-radius: 4px;
+}
+.info h3 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+  
+}
+.title{
+
+       
+  color: #fff;
+  font-size: 1.8em;
+  font-weight: bolder;
+  color: black;
+  text-align: center;
+  padding: 1.2em;
+}
+.list {
+  list-style: none;
+  font-size: 1em;
+  padding: 2em;
+  text-align: center;
+  }
+  .list article, p {
+  font-size: 1.1em;
+    
+  }
+  .list li {
+    padding: 1.2em;
+  font-size: 1em;
+    
+  }
+
+
+

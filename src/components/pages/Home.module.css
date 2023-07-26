@@ -1,0 +1,143 @@
+.container{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 4.6em;
+  
+}
+.container h1{
+  font-size: 3.2em;
+  padding: 0.4em;
+  margin: 1.2em;
+  color: #FAE647;
+  
+}
+.container h1 span {
+  color: #2624DB;
+}
+
+.wrapper {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2em;
+  margin: auto;
+}
+.wrapperImg{
+  width: 100%;
+  height: 300px;
+  transintion: 0.4s;
+  filter: grayscale(1);
+  flex: 1;
+  padding: 1.2em;
+  
+
+}
+
+.wrapperImg:hover {
+  filter: grayscale(0);
+    transintion: 0.3s;
+  flex: 3;
+}
+
+.solarImg{
+  background-image: url("../../assets/Solar.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  height: 100%;
+  margin-left: 1200px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin: 1.2em;
+  font-weight: 300;
+}
+
+.solar{
+  width: 300px;
+  text-align: center;
+   margin: 1.2em;
+   font-weight: 300;
+   font-size: 1.2em;
+      
+}
+
+.lampadaImg{
+  background-image: url("../../assets/Lampadas.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  height: 100%;
+  margin-left: 1200px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin: 1.2em;
+  font-weight: 300;
+}
+
+.lampada{
+  width: 350px;
+  text-align: center;
+   margin: 0.2em;
+   font-weight: 300;
+   font-size: 1.2em;
+      
+}
+.arCondicionadoImg{
+  background-image: url("../../assets/arCondicionado.jpg");
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  height: 100%;
+  margin-left: 1200px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin: 1.2em;
+  font-weight: 300;
+}
+
+.arCondicionado{
+  width: 350px;
+  text-align: center;
+   margin: 0.2em;
+   font-weight: 300;
+   font-size: 1.2em;
+      
+}
+     
+
+.elevadorImg{
+  background-image: url("../../assets/elevador.jpeg");
+  background-size: cover;
+  background-position: center center;
+  width: 50%;
+  height: 100%;
+  margin-left: 1200px;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin: 1.2em;
+  font-weight: 300;
+}
+
+.arCondicionado{
+  width: 350px;
+  text-align: center;
+   margin: 0.2em;
+   font-weight: 300;
+   font-size: 1.2em;
+      
+}
+
+.btn{
+  padding: 20px;
+  margin: 20px;
+}
+.buttonIcon{
+  font-size: 2em;
+  color: #fff;
+}
