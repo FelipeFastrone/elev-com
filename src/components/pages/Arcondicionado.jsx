@@ -1,6 +1,6 @@
 
 import styles from "./Arcondicionado.module.css";
-import Button from "../form/Button";
+import Button from "../btn/Button";
 import Container from "../layout/Container";
 
 

@@ -1,7 +1,7 @@
 import { FaBolt
 } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import Button from "../form/Button.jsx";
+import Button from "../btn/Button.jsx";
 
 
 import styles from "./Home.module.css";
