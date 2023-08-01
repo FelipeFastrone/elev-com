@@ -23,8 +23,7 @@ display: flex;
   width: 100%;
  }
  .card{ 
-  background-color: #2624DB;
-   color: #fff;
+   color: #222;
    padding: 2em;
    margin: 1em;
    max-width: 400px;
@@ -35,7 +34,7 @@ display: flex;
  }
 
 .title{
-  color: #fff;
+  color: #222;
   font-size: 1.8em;
   font-weight: bolder;
   color: black;
@@ -46,10 +45,30 @@ display: flex;
   font-size: 1.5em;
   text-align: center;
   padding: 1.2em;
-
-
-
 }
+.img{
+  border-radius: 10px;
+  margin-top: 108px;
+} 
+.card ul{
+  list-style: none;
+  margin: 6px;
+  line-height: 1.6em;
+  
+} 
+.card hr{
+ 
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+} 
+.cardAcess{
+ 
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+} 
+
 
 
 

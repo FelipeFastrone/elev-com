@@ -20,8 +20,29 @@ export default function Elevadores(){
         <h4>Consertos e novas instalações </h4>
      <div className={styles.wrapperCard}>
        <div className={styles.card}>
-        <h4>Instalação</h4>
-        <p>Todas as nossas instalações são efetuadas de acordo com os procedimentos necessário para o perfeito funcionamento dos aparelhos de ar-condicionado . Realizamos todas as nossas instalações de acordo com o que determina o fabricante. Garantindo perfeito rendimento do aparelho e sem perder a garantia de fábrica.</p>
+        <h4>Elevador de carga/Monta Carga</h4>
+        <ul>
+          <li>
+
+          Elevador de Carga (NBR14712): <br></br>
+          Para cargas desde 350kg até 30.000kg. <br></br>
+          Utiliza o acionamento hidráulico.  <br></br>
+          Transporte de cargas e passageiros.  <br></br>
+          Aplicação em fábricas, hospitais e centros comerciais.
+
+</li>
+<hr></hr>
+<li>
+  
+
+          Monta Carga (NBR 14712): <br></br>
+          Para Cargas até até 300Kg. <br></br>
+          Utiliza o acionamento eletromecânico. <br></br>
+          Transporte apenas de cargas. <br></br>
+          Aplicação em fábricas, hospitais e centros comerciais.
+  
+          </li>
+        </ul>
        </div>
        <div> 
         <img className={styles.img} src={img} alt="Elestricista arrumando um poste"></img>
@@ -32,8 +53,15 @@ export default function Elevadores(){
        <div> 
         <img className={styles.img} src={img} alt="Elestricista arrumando um poste"></img>
         </div>
-       <div className={styles.card}><h4>HIGIENIZAÇÃO</h4>
-        <p>Efetuamos a higienização química do seu equipamento com ferramentas e produtos de alta qualidade, proporcionando uma limpeza completa no seu aparelho. Garantindo o funcionamento e vida útil do seu equipamento, e melhorando a qualidade de ar que você, sua família ou funcionários respiram.</p></div>
+       <div className={styles.card}>
+        <h4>Acessibilidade</h4>
+        <ul className={styles.cardAcess}>
+          <li>Plataforma Hidráulica de Acessibilidade</li>
+          <li>Plataforma Hidráulica Residencial</li> 
+          <li>Elevador HIdráulico Residencial</li>
+          <li>Soluções para Escola, Clubes, Academias e Agências Bancárias</li>
+        </ul>
+        </div>
       </div>
         </div>
       </div>
