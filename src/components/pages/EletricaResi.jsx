@@ -14,7 +14,7 @@ export default function EletricaResi(){
 
      
         <div className={styles.wrapper}>
-      <h1 className={styles.title}>Elétrica Residencial!</h1>
+      <h1 className={styles.title}>Elétrica Residencial</h1>
       <div className={styles.wrapperContent}>
     
           <h4>Precisando de reparos ou de uma de uma nova instalação em casa?  </h4>

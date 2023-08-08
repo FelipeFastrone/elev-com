@@ -4,7 +4,9 @@ import Button from "../btn/Button";
 import Container from "../layout/Container";
 
 
-import img from "../../assets/fundo2.jpeg"
+import imgElevator from "../../assets/acessibilidade.jpeg";
+import imgCargaElevator from "../../assets/cargaElevator.jpg";
+
 
 export default function Elevadores(){
   
@@ -14,7 +16,7 @@ export default function Elevadores(){
       
 
         <div className={styles.wrapper}>
-      <h1 className={styles.title}>Elevadores!</h1>
+      <h1 className={styles.title}>Elevadores</h1>
          <div className={styles.wrapperContent}>
          <div className={styles.info}>
         <h4>Consertos e novas instalações </h4>
@@ -45,20 +47,21 @@ export default function Elevadores(){
         </ul>
        </div>
        <div> 
-        <img className={styles.img} src={img} alt="Elestricista arrumando um poste"></img>
+        <img className={styles.img} src={imgCargaElevator} alt="
+        Imagem elevador de carga"></img>
         </div>
         </div>
       <div className={styles.wrapperCard}>
 
        <div> 
-        <img className={styles.img} src={img} alt="Elestricista arrumando um poste"></img>
+        <img className={styles.img} src={imgElevator} alt="Imagem de uma deficiente fisíca na cadeira de rodas"></img>
         </div>
        <div className={styles.card}>
         <h4>Acessibilidade</h4>
         <ul className={styles.cardAcess}>
           <li>Plataforma Hidráulica de Acessibilidade</li>
           <li>Plataforma Hidráulica Residencial</li> 
-          <li>Elevador HIdráulico Residencial</li>
+          <li>Elevador Hidráulico Residencial</li>
           <li>Soluções para Escola, Clubes, Academias e Agências Bancárias</li>
         </ul>
         </div>

@@ -12,7 +12,7 @@ export default function arCondicionado(){
       
 
         <div className={styles.wrapper}>
-      <h1 className={styles.title}>Ar Condicionados!</h1>
+      <h1 className={styles.title}>Ar Condicionados</h1>
       <div className={styles.wrapperContent}>
       
         <div className={styles.info}>

@@ -15,7 +15,7 @@ export default function EnergiaSol(){
 
         <div className={styles.wrapper}>
       <h1 className={styles.title}>Você quer reduzir sua despesa com conta de Luz?</h1>
-      <h3 >Energia Solar!</h3>
+      <h3 >Energia Solar</h3>
       <div className={styles.wrapperContent}>
       
         <div className={styles.info}>
