@@ -25,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Routes
     element={<App />}>
       <Route
-         path='/'
+         path='/elev-com'
          element={<Home/>}>
       </Route>
       <Route

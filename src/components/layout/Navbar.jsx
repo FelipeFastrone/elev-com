@@ -9,14 +9,14 @@ export default function Navbar(){
   return (
     <nav className={styles.navbar}>
       <Container>
-         <Link to="/" className={styles.logo}>
+         <Link to="/elev-com" className={styles.logo}>
            <h1 className={styles.logo}>Elev<span>.com</span><FaBolt/></h1>
           </Link>
         </Container>
         <Container>
          <ul className={styles.list}>
       <li className={styles.item}>
-        <Link to="/">Home</Link>
+        <Link to="/elev-com">Home</Link>
       </li>
        <li className={styles.item}>
         <Link to="/EnergiaSol">Energia Solar</Link>
