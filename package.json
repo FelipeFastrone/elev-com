@@ -1,5 +1,5 @@
 {
-  "homepage": "https://github.com/FelipeFastrone/Elev.com",
+  "homepage": "https://github.com/FelipeFastrone/ElevCom",
   "name": "vite-project",
   "private": true,
   "version": "0.0.0",
@@ -10,7 +10,7 @@
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "json-server": "^0.17.3",
