@@ -23,10 +23,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <Navbar />
     <Container customClass="min-height">
     <Routes
-    element={<App />}>
+       element={<App />}>
       <Route
          path='/elev-com'
-         element={<Home/>}>
+         element={<Home/>}exact >
       </Route>
       <Route
          path='/EletricaResi'

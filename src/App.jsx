@@ -18,10 +18,10 @@ export default function App() {
   return (
     <div id="App">
      <Home/>
-     <EletricaResi/>
      <EnergiaSol/>
-     <Elevadores/>
+     <EletricaResi/>
      <Arcondicionado/>
+     <Elevadores/>
     
       
     </div>

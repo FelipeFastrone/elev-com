@@ -32,7 +32,7 @@
 .wrapperImg{
   width: 100%;
   height: 300px;
-  transintion: 0.4s;
+  transition: 0.4s;
   filter: grayscale(1);
   flex: 1;
   padding: 1.2em;
@@ -42,8 +42,8 @@
 
 .wrapperImg:hover {
   filter: grayscale(0);
-    transintion: 0.3s;
-  flex: 3;
+    transition: 0.3s;
+   flex: 3;
 }
 
 .solarImg{
@@ -141,4 +141,32 @@
 .buttonIcon{
   font-size: 2em;
   color: #fff;
+}
+@media (max-width: 600px) {
+  .wrapper{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -55px;
+    
+    
+  }
+  .container {
+    gap: 100px;
+  }
+  .container h1{
+    font-size: 2.2em;
+    font-weight: bolder;
+    padding: 0.4em;
+    color: #FAE647;
+        
+  }
+  .arCondicionadoImg, .elevadorImg, 
+  .lampadaImg, .solarImg{
+    margin-left: 72px;
+  }
+  .btn{
+    padding: 20px;
+    margin-top: 300px
+  }
 }

@@ -55,14 +55,15 @@ export default function Home(){
 
    </div>
         
-    </div>
-      
+   </div>
      <Button
      text="Fale conosco"
      type="button"
      
     >
     </Button>
+   
+
     </div>
   )
 }

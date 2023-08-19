@@ -31,3 +31,11 @@
 .icon:hover {
   color: #2624DB;
 }
+@media (max-width: 600px) {
+  .footer{
+    padding: 1.4em;
+  }
+  .icon {
+    font-size: 1.2em;
+  }
+}

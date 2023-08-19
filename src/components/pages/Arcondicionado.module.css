@@ -50,7 +50,16 @@ display: flex;
 
 
 }
+@media (max-width: 600px) {
+  .wrapperCard{
+    flex-direction: column;
+  }
+  .card{
+    width: fit-content;
+    max-height: 800px;
 
+  }
+}
 
 
 

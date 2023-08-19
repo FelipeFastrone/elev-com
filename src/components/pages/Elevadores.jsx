@@ -19,7 +19,7 @@ export default function Elevadores(){
       <h1 className={styles.title}>Elevadores</h1>
          <div className={styles.wrapperContent}>
          <div className={styles.info}>
-        <h4>Consertos e novas instalações </h4>
+        <h3>Consertos e novas instalações </h3>
      <div className={styles.wrapperCard}>
        <div className={styles.card}>
         <h4>Elevador de carga/Monta Carga</h4>
@@ -54,7 +54,6 @@ export default function Elevadores(){
       <div className={styles.wrapperCard}>
 
        <div> 
-        <img className={styles.img} src={imgElevator} alt="Imagem de uma deficiente fisíca na cadeira de rodas"></img>
         </div>
        <div className={styles.card}>
         <h4>Acessibilidade</h4>
@@ -65,6 +64,8 @@ export default function Elevadores(){
           <li>Soluções para Escola, Clubes, Academias e Agências Bancárias</li>
         </ul>
         </div>
+        <img className={styles.img} src={imgElevator} alt="Imagem de uma deficiente fisíca na cadeira de rodas"></img>
+
       </div>
         </div>
       </div>

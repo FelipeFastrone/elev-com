@@ -58,7 +58,6 @@
   font-size: 1em;
   padding: 2em;
   text-align: center;
-  column: 2;
   }
   .list li {
     padding: 1.2em;
@@ -72,6 +71,27 @@
     background: #2624DB;
     color: #fff;
   }
+  
 
+  @media (max-width: 600px) {
+      .info{
+        width: 100%;
+        flex-direction: column;
+        text-align: justify;
+      }
+      .list {
+         width: 100%;
+         text-align: center;
+         margin-left: -50px;  
+        }
+      .list li{
+          width: 160%;
+             
+      }
+      .img{
+        width: 140%;
+        margin-left: -40px;
+      }
+  }
 
 

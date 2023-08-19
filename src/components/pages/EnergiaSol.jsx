@@ -28,24 +28,25 @@ export default function EnergiaSol(){
       <br></br>
 
         <article>A instalação dos painéis solares é fácil e pode ser realizada em telhados de casas e prédios, em terrenos abertos ou em grandes usinas solares. Além disso, os painéis solares são duráveis e requerem pouca manutenção, garantindo uma fonte confiável de energia por décadas.</article>
-        <article>
       <br></br>
       <br></br>
-
+      <img className={styles.img} src={img} alt="placas solares"></img>
+        <article className={styles.list}>
+      <br></br>
           Não perca a oportunidade de fazer a sua parte para proteger o meio ambiente e economizar na sua conta de luz. Considere a instalação de painéis solares em sua casa ou empresa e comece a desfrutar dos benefícios imediatamente.
         </article>
       </section>
-      <img className={styles.img} src={img} alt="placas solares"></img>
+      
+      </div>
+     </div>
       <Button 
        className={styles.btn}
        text="Faça um orçamento"
        />
-     </div>
 
      
      
      </div>
-     </div>
    </Container>
   )
-}
+  }

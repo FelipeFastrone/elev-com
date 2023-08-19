@@ -14,11 +14,13 @@
   left: 0;
       
 }
-.container {
+ .menu {
+
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
   
-}
+      
+} 
 .logo{
   font-size: 1.2em;
   color: #fff;
@@ -46,4 +48,59 @@
 }
 .item a:hover {
   color: #2624DB;
+}
+.menuButton{
+  display: none;
+}
+
+@media (max-width: 600px) {
+  .navbar{
+    display: grid;
+
+    
+  }
+
+  .logo{
+    width: 100%;
+    display: block;
+    text-align: start;
+  }
+    
+  .list{
+   
+    display: block; 
+    width: 480px;
+    height: 324px;
+    z-index: 2;
+    margin-top: 60px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 1.2em;
+    transition: 0.2ms;
+
+  }
+  
+  .menu.active {
+    opacity: 1;
+    visibility: visible;
+  }
+  .menuButton {
+    display: inline;
+    width: 40px;
+    height: 42px;
+    color: #FAE647;
+    background-color: transparent;
+    font-size: 1.5em;
+    font-weight: bolder;
+    border: none;
+    cursor: pointer;
+    margin-left: 420px;
+    margin-top: -32px;
+  }
+  .menuButton, .menu.active{
+    content: "X";
+  }
+  .inactive {
+    display: none;
+  }
 }
