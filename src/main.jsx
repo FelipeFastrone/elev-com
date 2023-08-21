@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import App from './App.jsx';
 
@@ -19,7 +19,7 @@ import Footer from './components/layout/Footer.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <HashRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Navbar />
     <Container customClass="min-height">
     <Routes
@@ -47,7 +47,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       </Routes>
       </Container>
       <Footer />
-    </HashRouter>
+    </BrowserRouter>
   </React.StrictMode>,
 )
 
