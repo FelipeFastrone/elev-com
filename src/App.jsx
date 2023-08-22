@@ -23,7 +23,7 @@ export default function App() {
     <Container customClass="min-height">
     <Routes>
       <Route
-         path='/'
+         path='/Home'
          element={<Home/>}>
       </Route>
       <Route
