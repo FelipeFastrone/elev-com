@@ -1,17 +1,16 @@
+/* eslint-disable no-undef */
 
 const express = require('express');
-const favicon = require('express-favicon');
-const path = require('path');
-const port = process.env.PORT || 8080;
+const {resolve} = require('path')
+const port = process.env.PORT || 3000;
 const app = express();
-app.use(favicon(__src + '/build/favicon.ico'));
-// the __dirname is the current directory from where the script is running
-app.use(express.static(__src));
-app.use(express.static(path.join(__dirname, 'build')));
-app.get('/ping', function (req, res) {
- return res.send('pong');
+
+app.use('/', express.static(
+     resolve(
+      __dirname, './dist'
+     )
+  ))
+app.listen(port, (err) => {
+  if (err){return console.log(err)}
+  console.log("Tudo ok")
 });
-app.get('/*', function (req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
-app.listen(port);
