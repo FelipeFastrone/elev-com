@@ -142,7 +142,7 @@
   font-size: 2em;
   color: #fff;
 }
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
   .wrapper{
     display: flex;
     flex-direction: column;

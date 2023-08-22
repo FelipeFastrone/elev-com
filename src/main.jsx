@@ -21,13 +21,13 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   // eslint-disable-next-line react/jsx-no-comment-textnodes
   <React.StrictMode>
     // eslint-disable-next-line no-undef, no-undef
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
     <Navbar />
     <Container customClass="min-height">
     <Routes
        element={<App />}>
       <Route
-         path='/elev-com'
+         path='/'
          element={<Home/>}exact >
       </Route>
       <Route
