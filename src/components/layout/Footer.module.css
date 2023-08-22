@@ -31,7 +31,7 @@
 .icon:hover {
   color: #2624DB;
 }
-@media (max-width: 600px) {
+@media (max-width: 720px) {
   .footer{
     padding: 1.4em;
   }

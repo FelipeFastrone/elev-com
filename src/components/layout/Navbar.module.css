@@ -53,7 +53,7 @@
   display: none;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 720px) {
   .navbar{
     display: grid;
 
@@ -94,7 +94,7 @@
     font-weight: bolder;
     border: none;
     cursor: pointer;
-    margin-left: 420px;
+    margin-left: 320px;
     margin-top: -32px;
   }
   .menuButton, .menu.active{
