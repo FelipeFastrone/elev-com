@@ -18,7 +18,9 @@ import './index.css';
 import Footer from './components/layout/Footer.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
+  // eslint-disable-next-line react/jsx-no-comment-textnodes
   <React.StrictMode>
+    // eslint-disable-next-line no-undef, no-undef
     <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Navbar />
     <Container customClass="min-height">
