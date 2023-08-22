@@ -18,12 +18,12 @@ export default function App() {
   
 
   return (
-    <div id="App">
+    <div id="App" >
      <Navbar />
     <Container customClass="min-height">
     <Routes>
       <Route
-         path='/Home'
+         path='/'
          element={<Home/>}>
       </Route>
       <Route
