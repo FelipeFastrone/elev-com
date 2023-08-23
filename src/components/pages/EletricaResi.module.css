@@ -80,17 +80,21 @@
         text-align: justify;
       }
       .list {
-         width: 100%;
+         width: 200%;
          text-align: center;
-         margin-left: -50px;  
+         margin-left: -70px; 
+
         }
-      .list li{
-          width: 160%;
-             
-      }
+      
       .img{
-        width: 140%;
-        margin-left: -40px;
+        width: 180%;
+        margin-left: -65px;
+      }
+      .wrapperContent h4 {
+        text-align: center;
+        width: 100%;
+        font-size: 1.5em;
+        margin-bottom: -60px;
       }
   }
 

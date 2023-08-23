@@ -1,6 +1,5 @@
 
 import { Route, Routes } from 'react-router-dom';
-import Home from './components/pages/Home';
 import EletricaResi from './components/pages/EletricaResi';
 import EnergiaSol from './components/pages/EnergiaSol';
 import Elevadores from './components/pages/Elevadores';
@@ -8,8 +7,7 @@ import Arcondicionado from './components/pages/Arcondicionado';
 import Navbar from './components/layout/Navbar';
 import Footer from './components/layout/Footer'
 import Container from './components/layout/Container';
-
-
+import Home from './components/pages/Home';
 
 
 
@@ -23,6 +21,7 @@ export default function App() {
     <Container customClass="min-height">
     <Routes>
       <Route
+         exact
          path='/'
          element={<Home/>}>
       </Route>

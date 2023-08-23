@@ -70,7 +70,7 @@
     .info {
       width: 100%;
       text-align: justify;
-      padding: 5px;
+      padding: 1px;
       text-indent: 1em;
     }
     .list {
@@ -81,6 +81,9 @@
       text-indent: 1em;
 
 
+    }
+    .btn {
+      padding: 5px;
     }
     
  }

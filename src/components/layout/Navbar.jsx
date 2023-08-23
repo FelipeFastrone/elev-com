@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import { useRef, useState } from "react";
 import {FaBolt}  from 'react-icons/fa';
-import {RxHamburgerMenu} from 'react-icons/rx'
+import {RxCross2, RxHamburgerMenu} from 'react-icons/rx'
 
 import  Container from './Container';
 import styles from "./Navbar.module.css";
@@ -18,19 +18,19 @@ console.log(isActive);
   return (
     <Container>
       <div  className={styles.navbar}>
-         <Link to="/elev-com" className={styles.logo}>
+         <Link to="/" className={styles.logo}>
            <h1 className={styles.logo}>Elev<span>.com</span><FaBolt/></h1>
           </Link>
           <button className={styles.menuButton}
           onClick={onClick}>
             <span>
-            <RxHamburgerMenu/>
+            {isActive ? <RxCross2/> : <RxHamburgerMenu/>}
             </span>
           </button>
         <nav ref={dropDownRef}className={isActive ? styles.active : styles.inactive}>
          <ul className={styles.list}>
       <li className={styles.item}>
-        <Link to="/elev-com"
+        <Link to="/"
         onClick={() => {
           setIsActive(false)
         }}>Home</Link>

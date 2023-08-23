@@ -11,12 +11,12 @@ export default function Footer(){
           <a 
           target="_blank" 
           rel="noreferrer"
-          href="https://instagram.com/FelipeFaastrone">
+          href="https://instagram.com/eletr_roger">
             <FaInstagram className={styles.icon}/></a></li>
         <li className={styles.item}><a
           target="_blank" 
           rel="noreferrer"
-          href="https://facebook.com/FelipeFastrone">
+          href="https://facebook.com/Elev.com">
             <FaFacebook className={styles.icon}/></a></li>
         <li className={styles.item}>
           <a

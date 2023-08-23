@@ -147,26 +147,45 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin-top: -55px;
+    margin-bottom: 120px; 
     
     
+  }
+  .wrapper h2{
+    margin-top: 10px; 
+     
   }
   .container {
-    gap: 100px;
+    text-align: center;
+    gap: 80px;
+    
   }
   .container h1{
+    width: 100%;
     font-size: 2.2em;
     font-weight: bolder;
     padding: 0.4em;
     color: #FAE647;
-        
+    margin-bottom: -60px;        
   }
   .arCondicionadoImg, .elevadorImg, 
   .lampadaImg, .solarImg{
-    margin-left: 72px;
+    margin-left: 5px;
+    width: 100%;
+    height: 100%;
+  }
+  .lampadaImg {
+    height: 70%;
+  }
+  .wrapperImg{
+  filter: none;
+     
   }
   .btn{
-    padding: 20px;
-    margin-top: 300px
+      padding: 5px;
+    
+
   }
+
+   
 }
